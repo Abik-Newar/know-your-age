@@ -29,8 +29,29 @@ form{
     justify-content: space-between;
 }
 
+label{
+    font-family: fantasy;font-size: 12px;
+}
+
 input{
+    margin-top: 3px;
     width: 80px;
     height: 30px;
     display: block;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+input::placeholder{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input:hover,
+input:focus{
+    border: 1px solid rgb(75, 35, 255);
+    
+}
+
+
