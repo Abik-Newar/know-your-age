@@ -1,2 +1,2 @@
 # know-your-age
-Age calculating site using HTML, CSS, Javascript. 
+The age-calculating site using HTML, CSS, and Javascript. 
