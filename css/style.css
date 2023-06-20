@@ -18,7 +18,6 @@ body{
 
 .formContainer{
     width: 40vw;
-    height: 450px;
     padding: 20px;
     
     border-radius: 15px 15px 100px 15px;
@@ -122,4 +121,23 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media only screen and (max-width: 860px) {
+    .formContainer{
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    form{
+        display: block;
+    }
+    input{
+        width: 80%;
+        
+    }
+    .inputContainer{
+        margin-top: 15px;
+    }
 }
