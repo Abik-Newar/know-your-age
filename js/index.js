@@ -8,15 +8,20 @@ let invalidyear = document.getElementById("invalid2");
 let emptyyear = document.getElementById("empty2");
 let btn = document.getElementById("submitBtn");
 
-btn.addEventListener('click', validation);
+btn.addEventListener('click', validation); // Work on event Listening (click)
 
-function validation(){
+function validation(){ //function which run the whole validation code
 
     monthValid();
     dayValid();
     yearValid();
 
 }
+
+// Function for the day validation
+// Function for the day validation
+// Function for the day validation
+// Function for the day validation
 
 function dayValid(){
     var day = document.getElementById("day").value;
@@ -39,6 +44,12 @@ function dayValid(){
     }
 }
 
+// Function for the month validation
+// Function for the month validation
+// Function for the month validation
+// Function for the month validation
+
+
 function monthValid(){
     var month = document.getElementById("month").value;
     if (month.length > 2 || month > 12) {
@@ -59,6 +70,12 @@ function monthValid(){
         document.getElementById("month").style.border = "1px solid black";
     }
 }
+
+
+// Function for the year validation
+// Function for the year validation
+// Function for the year validation
+// Function for the year validation
 
 
 function yearValid(){
@@ -84,3 +101,22 @@ function yearValid(){
         document.getElementById("year").style.border = "1px solid black";
     }
 }
+
+// working on date fetching
+// working on date fetching
+// working on date fetching
+// working on date fetching
+
+const date = new Date();
+
+const dayCurrent = date.getDate();
+
+const monthCurrent = date.getMonth() + 1;
+
+const yearCurrent = date.getFullYear();
+
+// working on the mathematical solution or so called Algorithms
+// working on the mathematical solution or so called Algorithms
+// working on the mathematical solution or so called Algorithms
+
+
