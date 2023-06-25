@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(94, 94, 94);
-    
+    display: block;
     
 }
 
@@ -114,6 +114,24 @@ h1 span{
     font-size: 11px;
     display: none;
 }
+.attribution{
+    margin-top: 50px;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
@@ -127,6 +145,9 @@ input::-webkit-inner-spin-button {
     .formContainer{
         width: 60vw;
     }
+    .attribution{
+        margin-top: 80px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -139,5 +160,8 @@ input::-webkit-inner-spin-button {
     }
     .inputContainer{
         margin-top: 15px;
+    }
+    .attribution{
+        margin-top: 100px;
     }
 }
