@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-completed.jpg)
+![desktop-completed](https://github.com/Abik-Newar/know-your-age/assets/63052965/60ad69b1-b7bf-4130-9fd0-beb364beef44)
 
 
 ### Links
