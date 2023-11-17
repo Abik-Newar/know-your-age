@@ -119,7 +119,7 @@ const date = new Date();
 
 let dayCurrent = date.getDate();
 
-const monthCurrent = date.getMonth() + 1;
+var monthCurrent = date.getMonth() + 1;
 
 const yearCurrent = date.getFullYear();
 
